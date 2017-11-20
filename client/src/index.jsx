@@ -41,7 +41,7 @@ class App extends React.Component {
             autoPlayNext={false}
             autoPlayStart={false}
             enableAnimation={true}
-            splashScreen={'/assets/0_splash.jpg'}
+            splashScreen={'/aframe-react-stories-demo/assets/0_splash.jpg'}
             assetsCallback={this.assetsCallback.bind(this)}
             viewCallback={() => { return; }}
           />
